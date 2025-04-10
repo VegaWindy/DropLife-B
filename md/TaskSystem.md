@@ -18,6 +18,19 @@ version:
 - 任务状态
 	- 待接取、进行中、已完成、已失败
 
+## 任务分类
+[[四象限法则]]
+
+- 主线任务
+	- 重要的、紧急的
+- 支线任务
+	- 重要的、不紧急的
+- 碎片任务（piece time）
+	- 不重要的、不紧急的
+- 日常任务
+	- 不重要的、紧急的、刷新的
+*不重要的、紧急的任务会被直接执行，不会被放入任务列表中。*
+
 ### 示例
 
 | taskID | taskName | taskType | taskDescription | taskObjective | taskReward | taskStartTime | taskEndTime | taskStatus |
